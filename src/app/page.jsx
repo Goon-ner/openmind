@@ -7,7 +7,6 @@ import NftList from "./nftList"
 import "./styles.css"
 import Header from "./header";
 import MyAccount from "./myAccount";
-import { BigNumberish } from "ethers";
 
 const HARDHAT_NETWORK_ID = "0x89"
 const NEW_NFT_ADDRESS = "0xb13640172190f09b9223b37d9D2425dEc916d829"
