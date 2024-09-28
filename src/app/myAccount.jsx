@@ -1,5 +1,5 @@
+"use client";
 import React, { useState, FormEvent } from "react";
-import { ethers } from "ethers";
 import Modal from 'react-modal';
 
 const MyAccount  = ({

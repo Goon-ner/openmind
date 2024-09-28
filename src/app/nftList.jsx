@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 const NftList = ({nftList, _handleBuyNFT}) => {        

@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect, FormEvent } from "react";
 import { ethers } from "ethers";
 import { NavLink } from 'react-router-dom';
