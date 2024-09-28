@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ethers } from "ethers";
 import { NewNFT__factory, NewNFTMarket__factory } from "../typechain/index";
 import NftList from "../components/nftList"
-import "./styles.css"
+import "../styles/styles.css"
 import Header from "../components/header";
 import MyAccount from "../components/myAccount";
 
