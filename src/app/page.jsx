@@ -287,7 +287,7 @@ export default function Home() {
           currentBalance={currentBalance}
         />
         <Routes>
-          <Route path="/" 
+          <Route path="/home" 
           element={<NftList nftList={nftList} 
           _handleBuyNFT={_handleBuyNFT} 
           filterNftList={filterNftList} 
