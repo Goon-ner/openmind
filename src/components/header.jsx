@@ -1,11 +1,10 @@
-"use client";
-import React, { useState, useEffect, FormEvent } from "react";
+import React, { useState } from "react";
 import { ethers } from "ethers";
 import { NavLink } from 'react-router-dom';
 import Modal from 'react-modal';
 import ConnectWallet from "@/components/ConnectWallet";
-import WaitingForTransactionMessage from "../components/WaitingForTransactionMessage";
-import TransactionErrorMessage from "../components/TransactionErrorMessage";
+import WaitingForTransactionMessage from "./WaitingForTransactionMessage";
+import TransactionErrorMessage from "./TransactionErrorMessage";
 
 
 const Header = ({

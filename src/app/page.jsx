@@ -3,10 +3,10 @@ import React, { useState, useEffect, FormEvent } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ethers } from "ethers";
 import { NewNFT__factory, NewNFTMarket__factory } from "../typechain/index";
-import NftList from "./nftList"
+import NftList from "../components/nftList"
 import "./styles.css"
-import Header from "./header";
-import MyAccount from "./myAccount";
+import Header from "../components/header";
+import MyAccount from "../components/myAccount";
 
 const HARDHAT_NETWORK_ID = "0x89"
 const NEW_NFT_ADDRESS = "0xb13640172190f09b9223b37d9D2425dEc916d829"
@@ -287,7 +287,7 @@ export default function Home() {
           currentBalance={currentBalance}
         />
         <Routes>
-          <Route path="/home" 
+          <Route path="/" 
           element={<NftList nftList={nftList} 
           _handleBuyNFT={_handleBuyNFT} 
           filterNftList={filterNftList} 
